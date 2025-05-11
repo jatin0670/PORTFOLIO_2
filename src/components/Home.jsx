@@ -12,7 +12,7 @@ const Home = () => {
       </div>
 
       <div className=' flex-grow w-1/2 flex items-center justify-center'>
-      <div className=' bg-cyan-600 h-5/6 w-4/5 rounded-lg overflow-hidden '>
+      <div className=' h-5/6 w-4/5 rounded-lg overflow-hidden '>
          <img className=' w-full h-full object-cover object-center' src={main} alt="" />
       </div>
       </div>
