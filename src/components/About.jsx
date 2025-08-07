@@ -5,9 +5,9 @@ const About = () => {
   return (
     <div id='About' className=' w-full h-screen pt-10 flex flex-col'>
       <div className=' h-1/2 w-full flex flex-col items-center justify-center space-y-2'>
-      <h3 className=' text-black text-2xl font-bold '>my skills</h3>
-      <h1 className=' text-black text-5xl font-bold '>What I do</h1>
-      <p className=' text-gray-600 text-xl w-3/5 text-center font-normal'>I specialize in building modern, responsive web applications and crafting smooth user experiences. With a solid foundation in programming, I create clean code, solve complex problems, and continuously learn new technologies to stay ahead in the tech game.</p>
+      <h3 className=' text-black text-lg font-bold md:text-2xl '>my skills</h3>
+      <h1 className=' text-black text-3xl font-bold md:text-4xl '>What I do</h1>
+      <p className=' text-gray-600 text-xl w-3/5 text-center font-normal lg:text-2xl'>I specialize in building modern, responsive web applications and crafting smooth user experiences. With a solid foundation in programming, I create clean code, solve complex problems, and continuously learn new technologies to stay ahead in the tech game.</p>
 
       </div>
 
