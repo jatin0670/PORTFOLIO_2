@@ -2,7 +2,7 @@ import React from 'react'
 // [this is prop thing]
 const ProjectCards = (props) => {
   return (
-    <div className=' w-[45%] h-1/2 flex flex-col space-y-1 items-start justify-between rounded-lg overflow-hidden shadow-md lg:w-[23%] lg:h-4/6 bg-blue-400'>
+    <div className=' w-[45%] h-1/2 flex flex-col space-y-1 items-start justify-between rounded-lg overflow-hidden shadow-md lg:w-[23%] lg:h-4/6 '>
       <div className=' w-full h-1/2 rounded-b-lg shadow-lg overflow-hidden'>
       <img className=' w-full h-full object-cover object-top ' src={props.Src} alt="" />
       </div>
