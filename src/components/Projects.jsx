@@ -15,7 +15,7 @@ const Projects = () => {
 
         {/* <ProjectCards Title="Weather_Web" Para="A sleek weather forecasting app powered by React and a weather API. It displays current weather conditions, temperature, and a multi-day forecast for any location, all wrapped in a modern, user-friendly interface." Src={weather} Link="https://jatin0670.github.io/Weather_web/"/> */}
 
-        <ProjectCards Title="Quiz App" Para="A fun and responsive quiz app built with React and JavaScript. It features multiple-choice questions, score tracking, and instant feedback in a clean, user-friendly design." Src={lib} Link="https://jatin0670.github.io/QuizGame/"/>
+        <ProjectCards Title="Quiz App" Para="A fun and responsive quiz app built with React and JavaScript. It features multiple-choice questions, score tracking, and instant feedback in a clean, user-friendly design." Src={lib} Link="https://librarymanagementfrontend-eta.vercel.app/"/>
 
         <ProjectCards Title="Clone Site" Para="A visually accurate clone of the Burger King website built with HTML, CSS, and JavaScript. It replicates the layout, design, and responsiveness of the original site, showcasing strong frontend skills and attention to detail." Src={bk} Link="https://jatin0670.github.io/burger_king/"/>
       </div>
