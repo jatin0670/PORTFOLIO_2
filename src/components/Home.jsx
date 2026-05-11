@@ -4,8 +4,8 @@ import main from '../images/main.png'
 const Home = () => {
 
   return (
-    <div id="Home" className="w-full flex flex-col-reverse items-center h-screen pt-10 lg:flex-row ">
-      <div className=" flex-grow flex items-center justify-center h-1/2 lg:w-full lg:h-4/5 ">
+    <div id="Home" className="w-full flex flex-col-reverse items-center h-screen px-3 pt-10 lg:flex-row ">
+      <div className=" flex-grow flex items-center justify-center h-1/2 lg:w-full lg:h-4/5">
         <div className=" h-3/4 md:h-4/5 md:w-full lg:w-5/6 lg:h-5/6 md:justify-center flex flex-col gap-4 px-5
         lg:px-0 md:gap-0">
           <h1 className="  text-white text-6xl text-center font-bold text-wrap lg:px-0 lg:py-5 w-full  md:text-8xl md:text-center lg:text-9xl lg:text-left gap-4">

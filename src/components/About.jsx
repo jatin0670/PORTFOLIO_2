@@ -4,11 +4,11 @@ import { motion } from "motion/react"
 
 const About = () => {
   return (
-    <div id='About' className=' w-full  min-h-screen md:h-screen gap-y-16 md:gap-0 pt-10 flex flex-col '>
+    <div id='About' className='  w-full  min-h-screen md:h-screen gap-y-16 md:gap-0 pt-10 flex flex-col '>
       <div className=' md:h-2/5 w-full flex flex-col items-center justify-center space-y-1 md:space-y-2'>
-      <motion.h3 initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0}} className=' text-white text-sm font-bold md:text-2xl lg:text-3xl'>my skills</motion.h3>
-      <motion.h1 initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0}} className=' text-white text-xl font-bold md:text-4xl  lg:text-5xl'>What I do</motion.h1>
-      <motion.p initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0}} className=' text-gray-500 lg:hover:text-white text-lg w-5/6 md:w-5/6 lg:w-4/5 text-center font-normal lg:text-2xl'>I specialize in building modern, responsive web applications and crafting smooth user experiences. With a solid foundation in programming, I create clean code, solve complex problems, and continuously learn new technologies to stay ahead in the tech game.</motion.p>
+      <motion.h3 initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0}} viewport={{ once: true }} className=' text-white text-sm font-bold md:text-2xl lg:text-3xl'>my skills</motion.h3>
+      <motion.h1 initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0}} viewport={{ once: true }} className=' text-white text-xl font-bold md:text-4xl  lg:text-5xl'>What I do</motion.h1>
+      <motion.p initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0}} viewport={{ once: true }} className=' text-gray-500 lg:hover:text-white text-lg w-5/6 md:w-5/6 lg:w-4/5 text-center font-normal lg:text-2xl'>I specialize in building modern, responsive web applications and crafting smooth user experiences. With a solid foundation in programming, I create clean code, solve complex problems, and continuously learn new technologies to stay ahead in the tech game.</motion.p>
 
       </div>
 
