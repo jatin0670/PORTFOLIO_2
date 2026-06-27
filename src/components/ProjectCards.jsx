@@ -3,7 +3,7 @@ import { motion } from "motion/react"
 // [this is prop thing]
 const ProjectCards = (props) => {
   return (
-    <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0}} className=' w-[75%] h-[45%] flex flex-col space-y-1 items-start justify-between overflow-hidden md:w-[60%] md:h-[45%] lg:w-[33%] lg:h-[75%] p-2 shadow-black shadow-md bg-[rgba(255,255,255,0.03)] rounded-lg'>
+    <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0}} viewport={{once: true}} className=' w-[75%] h-[45%] flex flex-col space-y-1 items-start justify-between overflow-hidden md:w-[60%] md:h-[45%] lg:w-[33%] lg:h-[75%] p-2 shadow-black shadow-md bg-[rgba(255,255,255,0.03)] rounded-lg'>
       <div className=' w-full h-1/2 rounded-xl shadow-lg overflow-hidden'>
       <img className=' w-full h-full object-contain md:object-cover md:object-top' src={props.Src} alt="" />
       </div>

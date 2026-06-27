@@ -12,7 +12,7 @@ const Home = () => {
             Hello i'm Jatin
           </h1>
 
-          <p className=" text-zinc-500 font-medium text-2xl flex items-center text-center lg:h-2/5 w-full md:text-4xl lg:text-4xl lg:text-left lg:hover:text-white cursor-pointer">
+          <p className=" text-zinc-500 font-medium text-lg flex items-center text-center lg:h-2/5 w-full md:text-4xl lg:text-4xl lg:text-left lg:hover:text-white cursor-pointer">
             I'm Jatin, a passionate web developer based in India. Here, you'll
             get a glimpse of my journey in the world of web development, where
             creativity meets functionality.
